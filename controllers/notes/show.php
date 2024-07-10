@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'id' => $_POST['id']
     ]);
 
-    header('Location: /notes');
+    header('location: /notes');
     exit();
 
 

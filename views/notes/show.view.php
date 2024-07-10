@@ -11,6 +11,7 @@
         <p><?= htmlspecialchars($note['body']) ?></p>
 
         <form class = "mt-6" method ="POST">
+            <input type = "hidden" name = "_method" value = "DELETE">
             <input type = "hidden" name = "id" value = "<?= $note['body'] ?>">
             <button class = "bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
                 Delete

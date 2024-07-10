@@ -4,6 +4,7 @@ namespace Core;
 
 use PDO;
 
+
 class Database {
 
     public $connection;
@@ -42,7 +43,7 @@ class Database {
         $result = $this->find();
 
         if(!$result) {
-            //abort();
+            abort();
         }
 
         return $result;
