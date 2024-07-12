@@ -2,13 +2,13 @@
 
 namespace Core\Middleware;
 
-class Auth {
-
-    public function handle() {
-        if(! $_SESSION['user'] ?? false) {
+class Authenticated
+{
+    public function handle()
+    {
+        if (! $_SESSION['user'] ?? false) {
             header('location: /');
             exit();
         }
     }
-
 }
