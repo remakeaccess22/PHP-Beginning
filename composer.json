@@ -1,0 +1,26 @@
+{
+    "name": "juderafael/notes-app",
+    "authors": [
+        {
+            "name": "remakeaccess22",
+            "email": "alayacyacjude@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^11.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

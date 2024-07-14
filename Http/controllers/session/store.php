@@ -3,7 +3,6 @@
 use Core\Authenticator;
 use Http\Forms\LoginForm;
 
-
 // Validate the form
 $form = LoginForm::validate($attributes = [
 
